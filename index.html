@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Birthday</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=Cormorant+Garamond:wght@300;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <input type="checkbox" id="gate-toggle" hidden>
+
+  <!-- GATE -->
+  <label for="gate-toggle" class="gate">
+    <div class="gate-bg"></div>
+    <div class="gate-content">
+      <div class="gate-stars">
+        <span style="top:8%;left:12%;animation-delay:0s">✦</span>
+        <span style="top:15%;right:10%;animation-delay:0.7s">✦</span>
+        <span style="top:70%;left:6%;animation-delay:1.2s">✦</span>
+        <span style="top:75%;right:14%;animation-delay:0.4s">✦</span>
+      </div>
+
+      <p class="gate-kecil">Sebuah pesan untukmu</p>
+      <h1 class="gate-title">Selamat Datang</h1>
+      <div class="gate-line"></div>
+      <p class="gate-sub">Ada sesuatu yang spesial menantimu di dalam</p>
+      <span class="gate-btn">✦ Ketuk untuk Masuk ✦</span>
+    </div>
+  </label>
+
+  <!-- HALAMAN UTAMA -->
+  <div class="main-wrapper">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="ornament">✦ Selamat Ulang Tahun ✦</div>
+      <div class="hero-line"></div>
+      <h1 class="hero-name">RIKA OKTAVIANI</h1>
+      <div class="hero-subtitle">Semoga hari ini menjadi hari yang paling indah</div>
+      <div class="hero-date">— 24 Oktober 2007 —</div>
+      <div class="hero-date">To</div>
+      <div class="hero-date">— 24 Oktober 2026 —</div>
+      <div class="hero-star s1">✦</div>
+      <div class="hero-star s2">✦</div>
+      <div class="hero-star s3">✦</div>
+      <div class="hero-star s4">✦</div>
+      <div class="scroll-hint">scroll</div>
+    </section>
+
+    <!-- GALERI -->
+    <section class="gallery-section">
+      <div class="gallery-inner">
+        <p class="section-sub">Kenangan Indah</p>
+        <h2 class="section-title">Galeri Foto</h2>
+        <div class="gold-divider"><span>✦</span></div>
+
+        <div class="gallery-grid">
+          <a href="#lightbox-1" class="gallery-item"><img src="foto/foto1.jpeg" alt="Foto 1"></a>
+          <a href="#lightbox-2" class="gallery-item"><img src="foto/foto2.jpeg" alt="Foto 2"></a>
+          <a href="#lightbox-3" class="gallery-item"><img src="foto/foto7.jpeg" alt="Foto 7"></a>
+          <a href="#lightbox-4" class="gallery-item"><img src="foto/foto4.jpeg" alt="Foto 4"></a>
+          <a href="#lightbox-5" class="gallery-item"><img src="foto/foto5.jpeg" alt="Foto 5"></a>
+          <a href="#lightbox-6" class="gallery-item"><img src="foto/foto6.jpeg" alt="Foto 6"></a>
+        </div>
+
+        <p class="gallery-hint">Klik foto untuk memperbesar</p>
+      </div>
+    </section>
+
+    <!-- LIGHTBOX (Popup foto bentuk hati) -->
+    <div class="lightbox" id="lightbox-1">
+      <a href="#!" class="lightbox-close-area"></a>
+      <div class="lightbox-content"><img src="foto/foto1.jpeg" alt="Foto 1"></div>
+    </div>
+    <div class="lightbox" id="lightbox-2">
+      <a href="#!" class="lightbox-close-area"></a>
+      <div class="lightbox-content"><img src="foto/foto2.jpeg" alt="Foto 2"></div>
+    </div>
+    <div class="lightbox" id="lightbox-3">
+      <a href="#!" class="lightbox-close-area"></a>
+      <div class="lightbox-content"><img src="foto/foto7.jpeg" alt="Foto 7"></div>
+    </div>
+    <div class="lightbox" id="lightbox-4">
+      <a href="#!" class="lightbox-close-area"></a>
+      <div class="lightbox-content"><img src="foto/foto4.jpeg" alt="Foto 4"></div>
+    </div>
+    <div class="lightbox" id="lightbox-5">
+      <a href="#!" class="lightbox-close-area"></a>
+      <div class="lightbox-content"><img src="foto/foto5.jpeg" alt="Foto 5"></div>
+    </div>
+    <div class="lightbox" id="lightbox-6">
+      <a href="#!" class="lightbox-close-area"></a>
+      <div class="lightbox-content"><img src="foto/foto6.jpeg" alt="Foto 6"></div>
+    </div>
+
+    <!-- UCAPAN -->
+    <section class="messages-section">
+      <p class="section-sub">Doa &amp; Harapan</p>
+      <h2 class="section-title">Ucapan dari Seseorang</h2>
+      <div class="gold-divider"><span>✦</span></div>
+
+      <div class="messages-list">
+
+        <div class="message-card">
+          <div class="message-author">Dari: Aku</div>
+          <p class="message-text">
+            Selamat ulang tahun, Sayangku. Semoga di usia yang baru ini kamu selalu
+            diberikan kesehatan, kebahagiaan, dan kelancaran dalam segala hal
+            yang kamu jalani. Terima kasih sudah menjadi bagian terbaik dalam
+            hidup aku. Semoga semua impianmu satu per satu terwujud, dan kamu
+            selalu dikelilingi oleh orang-orang yang baik dan tulus menyayangimu.
+          </p>
+        </div>
+
+        <div class="message-card">
+          <div class="message-author">Dari: Orang Tersayang</div>
+          <p class="message-text">
+            Nggak kerasa ya kita udah lewatin banyak hal bareng. Walaupun kita
+            kenal baru beberapa bulan, terima kasih sudah jadi teman cerita yang
+            selalu ada, baik di saat senang maupun susah. Semoga tahun ini jadi
+            tahun terbaikmu — penuh tawa, petualangan baru, dan mimpi yang jadi
+            nyata.
+          </p>
+        </div>
+
+        <div class="message-card">
+          <div class="message-author">Pesan dari Aku</div>
+          <p class="message-text">
+            Semangat selalu ya, jangan mudah menyerah. Aku tau jalan yang kamu
+            lalui itu nggak mudah. Semangat buat impian kamu, cita-cita kamu,
+            semoga bisa dicapai semua. Plan yang kamu ceritakan bisa didapat. Bayar omongan
+            orang-orang yang selalu meremehkan kamu buktikan kalo kamu bisa menggapai
+            apa yang orang-orang sudah remehkan dan mengomentari hidup kamu, jangan berkecil
+            hati, jangan putus semangat. Jangan lupa untuk selalu tersenyum,
+            karena senyumu itu yang membuat kamu terlihat cantik dan sayang.
+            Selamat memasuki umur 19 tahun, yang dimana kehidupan sebenarnya
+            akan kamu mulai — dimana semua akan membuat kamu menjadi wanita dewasa.
+            Dan jangan lupa berdoa kepada Allah karena seusaha apapun kamu kalo tidak dibarengin dengan 
+            doa semuanya akan sia-sia saja satu lagi jangan tinggalkan sholat yaa dan jangan lupa selalu 
+            memakai hijab kalo ingin keluar kemanapun itu, AKU DISINI SELALU MENDOAKAN KAMU 
+            I LOVE YOU 
+          </p>
+        </div>
+
+      </div>
+    </section>
+
+    <footer>
+      <div>✦ &nbsp; made with love &nbsp; ✦</div>
+    </footer>
+
+  </div>
+
+</body>
+</html>
